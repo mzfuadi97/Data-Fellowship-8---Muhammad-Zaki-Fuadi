@@ -1,0 +1,10 @@
+FROM python:latest
+
+RUN pip install --upgrade google-cloud-storage
+RUN pip install wget
+
+WORKDIR /usr/app/src
+
+COPY test1.py ./
+COPY key.json ./
+CMD ["python", "./test1.py"]

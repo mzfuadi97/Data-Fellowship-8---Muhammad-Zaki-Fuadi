@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "weighty-diorama-365805",
+  "private_key_id": "8bd7388f29d3871a0990120ccdf550de365ac6c6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDCbw0Ai2JluHHg\n2t406yTVmU50R8+6ghuWRhZraaKQri7OsJ4CYTIuDEfrRfmn1ZTemOKAqAlkVKK7\nqeeDQoQkGr1t163dfl26gIR444NvsvWh3FmBppfivVqk1k12GKdIaHDVzkY0qafM\nly726Fp7B6CHwewqK6PlDHV5wK6U1jmpAzNMd8bc+czoTdaRW87VARYAGtatSJ7r\n9NV+EKkeHFHLH1iClQxZr3av1N4nZc68bX+ZpNpp9RQkkpVAlnxyehHYL7F21NRG\n0t/iQLuMOi+XSgOV+ubjHHW+dXqMjrsHHtfJoubHMLxbJb4UmYsLp6386A2I7iWg\nvAP9+RYVAgMBAAECggEAEAF6TYgr4nnLjhoWXr7YumizZ6kdtZnOUZGVeOQqSMS9\n/6/UYhfEPLwwE3MgOSvA5I4rXzH2C/dXqiEzeL+6BwrYezldC7XCW38G6Li58jEG\nPXvZNm4TZMv3sUge+lDPPIu0djVT3DP3J0VuzU6VXDllgqd5HIOZK1raNNqixIe1\nKuAHzdSSuryy65SAeM7xltMaDg1v/KuVsCdUc7UVq2TW76g48mxW4ofPsV4gHAlN\nqKAzhVYoDkjvKqrsTW1/K19G9R7Cc+VeVxYn65F1kLj3xO/k1p9yMetucWp/Wh52\nHSagZ8P16A4G3YGT1/xH2pjDzdwQzrzYR214psDZZQKBgQD3m68fF+5n9lidSnpq\nQjv0KFBWyuLQzdVZBD847hW56R+8MGe+eEjvFC32F9wvxws66c36B/xG1orwDjQ9\n5pckXatepO74pbNeB5ETA7M9SsL5arVe6d8LVwsII03j1kOBOGUSbxBOCgr3pLn1\nXa2GXLoIM8qezUNCwcvoBSszIwKBgQDJBgLzzXRSvRbhsCtlOV869t8c0nMAylrR\nkRwgDF9Grz6e+eWl96KmpjnjPIqSRwrrzQfQFurMx/29nIJbs092B3/2a37/lU2U\nmChFaKpifPHBTlWjdiSlDj6t9RPoTJTDrA0RrzVezM9EtgU5nzziDLXTZ3deXydl\n0tmEyAAhZwKBgQDPDq1+/vAql+K6hdGgkgq4vg2QxtCtc7L5YYfM/6vDb6NOJ9xZ\ndxTmeKWGqaVDfttxRJsufwcD5d0BqZ8eNHonuvzXhG0iGM7JzuIOWIXGt4IcOJO6\n7y/Jt9xNzdgQsth4csRyidXErLlHJcUr3k6BkYEv4r+J1HRumsj9GXVqqQKBgQCQ\nGywgpGdALOdrUMQ7I16+QV1+JutkZKuoUfMsklH2tQgaJSDY0mYaO02CNdNMu3r7\nwRZZuSQHO1MOC1Vz8V4ESaoU98ip5dkgrdcosrh6NAGGxuYjcT0hyc1rHSZxP/zh\nLMSNqeGDnST0p9ulDB80GVJ7Q0/SKjpvBzEBu/JD/wKBgGgTcwlfos1W1UkSdsp7\nRYG5TNvGG6PRWLZZ8nnR3smls8anwMggVL03OhDuIC3UAk4ljrfnoLVHvv/OZXnV\nt8mqy9XhNhMGOZcZi9zO/4EP6e9HdBw6n78YGDjw4sytTdmPiKDjpsvBU5dwmZV+\nQ39G0Vd9bJqLfesvxXbn1vVu\n-----END PRIVATE KEY-----\n",
+  "client_email": "df-iykra-08@weighty-diorama-365805.iam.gserviceaccount.com",
+  "client_id": "105497248017273737049",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/df-iykra-08%40weighty-diorama-365805.iam.gserviceaccount.com"
+}
