@@ -10,19 +10,30 @@ from google.cloud import storage
 from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateExternalTableOperator
 import pyarrow.csv as pv
 import pyarrow.parquet as pq
+import pandas as pd
+import csv
 
 PROJECT_ID = os.environ.get("GCP_PROJECT_ID")
 BUCKET = os.environ.get("GCP_GCS_BUCKET")
 # PROJECT_ID = "fellowship-7"
 # BUCKET = "fellowship-7"
 
-dataset_file = "yellow_tripdata_2021-01.csv"
-dataset_url = f"https://s3.amazonaws.com/nyc-tlc/trip+data/{dataset_file}"
+# dataset_file = "yellow_tripdata_2021-01.csv"
+# dataset_url = f"https://s3.amazonaws.com/nyc-tlc/trip+data/{dataset_file}"
+
+dataset_file = "Nation_Population.json"
+dataset_url = f"https://datausa.io/api/data?drilldowns=Nation&measures=Population"
+
 path_to_local_home = os.environ.get("AIRFLOW_HOME", "/opt/airflow/")
 # path_to_local_home = "/opt/airflow/"
+csv_filename = "Nation_Population.csv"
 parquet_file = dataset_file.replace('.csv', '.parquet')
-BIGQUERY_DATASET = os.environ.get("BIGQUERY_DATASET", 'trips_data_all')
+BIGQUERY_DATASET = os.environ.get("BIGQUERY_DATASET", 'taxy_zone8')
 
+def format_to_csv(src_file):
+    json_data = src_file.json()
+    df=pd.json_normalize(json_data["data"])
+    df.to_csv('/opt/airflow/dags/coba.csv')
 
 def format_to_parquet(src_file):
     if not src_file.endswith('.csv'):
@@ -68,13 +79,13 @@ with DAG(
     default_args=default_args,
     catchup=False,
     max_active_runs=1,
-    tags=['dtc-de'],
+    tags=['IYKRA'],
 ) as dag:
 
-    download_dataset_task = BashOperator(
-        task_id="download_dataset_task",
-        bash_command=f"curl -sSL {dataset_url} > {path_to_local_home}/{dataset_file}"
-    )
+    format_to_csv_task = PythonOperator(
+        task_id='format_to_csv_task',
+        python_callable=format_to_csv,
+        op_kwargs = {"csv_filename": csv_filename})
 
     format_to_parquet_task = PythonOperator(
         task_id="format_to_parquet_task",
@@ -94,20 +105,19 @@ with DAG(
         },
     )
 
-    # bigquery_external_table_task = BigQueryCreateExternalTableOperator(
-    #     task_id="bigquery_external_table_task",
-    #     table_resource={
-    #         "tableReference": {
-    #             "projectId": PROJECT_ID,
-    #             "datasetId": BIGQUERY_DATASET,
-    #             "tableId": "external_table",
-    #         },
-    #         "externalDataConfiguration": {
-    #             "sourceFormat": "PARQUET",
-    #             "sourceUris": [f"gs://{BUCKET}/raw/{parquet_file}"],
-    #         },
-    #     },
-    # )
+    bigquery_external_table_task = BigQueryCreateExternalTableOperator(
+        task_id="bigquery_external_table_task",
+        table_resource={
+            "tableReference": {
+                "projectId": PROJECT_ID,
+                "datasetId": BIGQUERY_DATASET,
+                "tableId": "external_table",
+            },
+            "externalDataConfiguration": {
+                "sourceFormat": "PARQUET",
+                "sourceUris": [f"gs://{BUCKET}/raw/{parquet_file}"],
+            },
+        },
+    )
 
-    download_dataset_task >> format_to_parquet_task >> local_to_gcs_task
-    # >> bigquery_external_table_task
+    format_to_csv_task >> format_to_parquet_task >> local_to_gcs_task >> bigquery_external_table_task
