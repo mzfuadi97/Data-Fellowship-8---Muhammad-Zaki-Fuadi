@@ -1,0 +1,10 @@
+CREATE OR REPLACE TABLE
+  `weighty-diorama-365805.session3.clustered_table`
+PARTITION BY
+  tgl_transaksi
+CLUSTER BY
+  fullVisitorId AS
+SELECT 
+*
+ FROM 
+    `weighty-diorama-365805.session3.clean1`

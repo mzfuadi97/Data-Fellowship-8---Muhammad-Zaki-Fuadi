@@ -1,0 +1,13 @@
+CREATE TABLE
+  `weighty-diorama-365805.session3.clean1` as
+SELECT
+fullVisitorId,
+PARSE_DATE('%Y%m%d', date) AS tgl_transaksi,
+SUM(hits_product_productRevenue - hits_product_productPrice) as Profit,
+  ARRAY_AGG(
+    STRUCT(hits_product_productSKU as kd_barang, channelGrouping, geoNetwork_country )
+  ) AS detail_transaction
+ FROM 
+    `data-to-insights.ecommerce.rev_transactions`
+group by 1, 2
+ORDER BY 2 ASC
