@@ -3,7 +3,7 @@ CREATE OR REPLACE TABLE
 PARTITION BY
   tgl_transaksi
 CLUSTER BY
-  fullVisitorId AS
+  geoNetwork_country  AS
 SELECT 
 *
  FROM 
