@@ -12,6 +12,7 @@ import pyarrow.csv as pv
 import pyarrow.parquet as pq
 import pandas as pd
 import csv
+import requests
 
 PROJECT_ID = os.environ.get("GCP_PROJECT_ID")
 BUCKET = os.environ.get("GCP_GCS_BUCKET")
@@ -21,19 +22,39 @@ BUCKET = os.environ.get("GCP_GCS_BUCKET")
 # dataset_file = "yellow_tripdata_2021-01.csv"
 # dataset_url = f"https://s3.amazonaws.com/nyc-tlc/trip+data/{dataset_file}"
 
-dataset_file = "Nation_Population.json"
+dataset_file = "Nation_Population.csv"
 dataset_url = f"https://datausa.io/api/data?drilldowns=Nation&measures=Population"
 
 path_to_local_home = os.environ.get("AIRFLOW_HOME", "/opt/airflow/")
 # path_to_local_home = "/opt/airflow/"
 csv_filename = "Nation_Population.csv"
 parquet_file = dataset_file.replace('.csv', '.parquet')
-BIGQUERY_DATASET = os.environ.get("BIGQUERY_DATASET", 'taxy_zone8')
+BIGQUERY_DATASET = os.environ.get("BIGQUERY_DATASET", 'session2')
 
-def format_to_csv(src_file):
-    json_data = src_file.json()
-    df=pd.json_normalize(json_data["data"])
-    df.to_csv('/opt/airflow/dags/coba.csv')
+def getData(ti): 
+    data = requests.get('https://datausa.io/api/data?drilldowns=Nation&measures=Population')
+    id_nation = []
+    nation = []
+    id_year = []
+    year = []
+    population = []
+    slug_nation = []
+    
+    for i in data.json()['data']:
+        id_nation.append(i['ID Nation'])
+        nation.append(i['Nation'])
+        id_year.append(int(i['ID Year']))
+        year.append(int(i['Year']))
+        population.append(int(i['Population']))
+        slug_nation.append(i['Slug Nation'])
+
+    result = {'ID Nation':id_nation, 'Nation':nation, "ID Year":id_year, "Year":year, "Population":population, "Slug Nation":slug_nation}
+    ti.xcom_push(key = 'parsing_result', value = result)
+
+def format_to_csv(ti, csv_filename):
+    dict_result = ti.xcom_pull(task_ids='getData', key='parsing_result')
+    df = pd.DataFrame(dict_result)
+    df.to_csv('/opt/airflow/'+csv_filename, index=False)
 
 def format_to_parquet(src_file):
     if not src_file.endswith('.csv'):
@@ -82,6 +103,9 @@ with DAG(
     tags=['IYKRA'],
 ) as dag:
 
+    getData = PythonOperator(task_id='getData',
+                                 python_callable=getData)
+
     format_to_csv_task = PythonOperator(
         task_id='format_to_csv_task',
         python_callable=format_to_csv,
@@ -120,4 +144,4 @@ with DAG(
         },
     )
 
-    format_to_csv_task >> format_to_parquet_task >> local_to_gcs_task >> bigquery_external_table_task
+    getData >> format_to_csv_task >> format_to_parquet_task >> local_to_gcs_task >> bigquery_external_table_task
