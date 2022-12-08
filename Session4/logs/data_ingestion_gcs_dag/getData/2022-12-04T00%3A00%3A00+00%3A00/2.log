@@ -1,0 +1,84 @@
+[2022-12-05 05:23:54,365] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: data_ingestion_gcs_dag.getData scheduled__2022-12-04T00:00:00+00:00 [queued]>
+[2022-12-05 05:23:54,378] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: data_ingestion_gcs_dag.getData scheduled__2022-12-04T00:00:00+00:00 [queued]>
+[2022-12-05 05:23:54,378] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-05 05:23:54,378] {taskinstance.py:1239} INFO - Starting attempt 2 of 2
+[2022-12-05 05:23:54,378] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-05 05:23:54,391] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): getData> on 2022-12-04 00:00:00+00:00
+[2022-12-05 05:23:54,400] {standard_task_runner.py:52} INFO - Started process 431 to run task
+[2022-12-05 05:23:54,406] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'data_ingestion_gcs_dag', 'getData', 'scheduled__2022-12-04T00:00:00+00:00', '--job-id', '94', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmp0vnnxrqp', '--error-file', '/tmp/tmppv0fbbdd']
+[2022-12-05 05:23:54,408] {standard_task_runner.py:77} INFO - Job 94: Subtask getData
+[2022-12-05 05:23:54,476] {logging_mixin.py:109} INFO - Running <TaskInstance: data_ingestion_gcs_dag.getData scheduled__2022-12-04T00:00:00+00:00 [running]> on host 038cafce2530
+[2022-12-05 05:23:54,543] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=data_ingestion_gcs_dag
+AIRFLOW_CTX_TASK_ID=getData
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-04T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-04T00:00:00+00:00
+[2022-12-05 05:23:54,545] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+TypeError: getData() missing 1 required positional argument: 'iy'
+[2022-12-05 05:23:54,560] {taskinstance.py:1277} INFO - Marking task as FAILED. dag_id=data_ingestion_gcs_dag, task_id=getData, execution_date=20221204T000000, start_date=20221205T052354, end_date=20221205T052354
+[2022-12-05 05:23:54,575] {standard_task_runner.py:92} ERROR - Failed to execute job 94 for task getData
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+TypeError: getData() missing 1 required positional argument: 'iy'
+[2022-12-05 05:23:54,586] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-12-05 05:23:54,626] {dagrun.py:628} WARNING - Failed to get task '<TaskInstance: data_ingestion_gcs_dag.get_data_task scheduled__2022-12-04T00:00:00+00:00 [removed]>' for dag 'data_ingestion_gcs_dag'. Marking it as removed.
+[2022-12-05 05:23:54,642] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-05 11:39:53,814] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: data_ingestion_gcs_dag.getData scheduled__2022-12-04T00:00:00+00:00 [queued]>
+[2022-12-05 11:39:53,829] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: data_ingestion_gcs_dag.getData scheduled__2022-12-04T00:00:00+00:00 [queued]>
+[2022-12-05 11:39:53,830] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-05 11:39:53,830] {taskinstance.py:1239} INFO - Starting attempt 2 of 3
+[2022-12-05 11:39:53,830] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-05 11:39:53,845] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): getData> on 2022-12-04 00:00:00+00:00
+[2022-12-05 11:39:53,855] {standard_task_runner.py:52} INFO - Started process 169 to run task
+[2022-12-05 11:39:53,863] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'data_ingestion_gcs_dag', 'getData', 'scheduled__2022-12-04T00:00:00+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmp6d3w5bqu', '--error-file', '/tmp/tmp5jwsb268']
+[2022-12-05 11:39:53,865] {standard_task_runner.py:77} INFO - Job 13: Subtask getData
+[2022-12-05 11:39:53,967] {logging_mixin.py:109} INFO - Running <TaskInstance: data_ingestion_gcs_dag.getData scheduled__2022-12-04T00:00:00+00:00 [running]> on host 2bdf78053424
+[2022-12-05 11:39:54,056] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=data_ingestion_gcs_dag
+AIRFLOW_CTX_TASK_ID=getData
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-04T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-04T00:00:00+00:00
+[2022-12-05 11:39:54,184] {python.py:175} INFO - Done. Returned value was: None
+[2022-12-05 11:39:54,201] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=data_ingestion_gcs_dag, task_id=getData, execution_date=20221204T000000, start_date=20221205T113953, end_date=20221205T113954
+[2022-12-05 11:39:54,251] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-12-05 11:39:54,307] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
