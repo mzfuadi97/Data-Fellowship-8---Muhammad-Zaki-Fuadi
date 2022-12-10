@@ -22,7 +22,7 @@ screenshot in the repo.
 Link : https://datastudio.google.com/reporting/2244835c-4499-490c-960c-5b23151c8146
 
 
-![](Dashboard Payment Type Overview.png)
+![](Dashboard Payment Type Overview.PNG)
 
 This dashboard explains the achievement of data from yellow taxis in terms of payment type in January 2019. The total use of transactions amounts to around 2 million, with an amount of around 37 million. Vendor Verifone Inc. and creative mobile tech. predominately payments via credit, around 1 million user Verifone vendors use this type of credit payment. 
 
@@ -50,15 +50,15 @@ Download Hadoop file on the following link : https://github.com/steveloughran/wi
 
 The following files must be downloaded
 
-![](Tools Downloaded.png)
+![](Tools Downloaded.PNG)
 
 Put the java file outside the program files, like the following * I've put it in the program files folder, but pyspark can't be read.
 
-![](Path Java.png)
+![](Path Java.PNG)
 
 Several files, such as spark, scala, and hadoop, are combined into a single folder on Local Disk C: as follows, *with the folder name spark.
 
-![](Path spark tools.png)
+![](Path spark tools.PNG)
 
 2. In the "User variables" section, click "New". 
 
@@ -74,21 +74,21 @@ Create variable "SCALA_HOME" and "Variable value" as "C:\spark\scala\bin".
 
 Create variable "SPARK_HOME" and "Variable value" as "C:\spark\spark\spark-3.2.3-bin-hadoop3.2".
 
-![](User variables.png)
+![](User variables.PNG)
 
 in the user variable, click  "path", then add it
 %SPARK_HOME%\bin and %HADOOP_HOME%\bin
 
-![](Setting up path user var.png)
+![](Setting up path user var.PNG)
 
 3. In the "System variables" section, click "New". 
 
 Create variable "JAVA_HOME" and "Variable value" as "C:\Java\jdk1.8.0_202"
 
-![](System variables.png)
+![](System variables.PNG)
 
 
 4. You have completed steps to install PySpark on Windows, open Command Prompt and type "pyspark --version", you can see the spark version like this:
 
-![](pyspark capture.png)
+![](pyspark capture.PNG)
 
