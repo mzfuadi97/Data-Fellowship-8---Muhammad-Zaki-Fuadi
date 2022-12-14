@@ -1,0 +1,213 @@
+[2022-12-08 14:46:28,809] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: data_ingestion_taxizone_dag.download_dataset_task scheduled__2022-12-07T00:00:00+00:00 [queued]>
+[2022-12-08 14:46:28,826] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: data_ingestion_taxizone_dag.download_dataset_task scheduled__2022-12-07T00:00:00+00:00 [queued]>
+[2022-12-08 14:46:28,827] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-08 14:46:28,827] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-12-08 14:46:28,827] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-08 14:46:28,851] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): download_dataset_task> on 2022-12-07 00:00:00+00:00
+[2022-12-08 14:46:28,860] {standard_task_runner.py:52} INFO - Started process 132 to run task
+[2022-12-08 14:46:28,872] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'data_ingestion_taxizone_dag', 'download_dataset_task', 'scheduled__2022-12-07T00:00:00+00:00', '--job-id', '53', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_taxizone_dag.py', '--cfg-path', '/tmp/tmpj0htwb2h', '--error-file', '/tmp/tmp5bgbvxtb']
+[2022-12-08 14:46:28,874] {standard_task_runner.py:77} INFO - Job 53: Subtask download_dataset_task
+[2022-12-08 14:46:28,964] {logging_mixin.py:109} INFO - Running <TaskInstance: data_ingestion_taxizone_dag.download_dataset_task scheduled__2022-12-07T00:00:00+00:00 [running]> on host a1fb1c911c16
+[2022-12-08 14:46:29,056] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=data_ingestion_taxizone_dag
+AIRFLOW_CTX_TASK_ID=download_dataset_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-07T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-07T00:00:00+00:00
+[2022-12-08 14:46:29,058] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-12-08 14:46:29,058] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSL https://www.kaggle.com/datasets/microize/newyork-yellow-taxi-trip-data-2020-2019?resource=download&select=taxi+_2B_zone_lookup.csv > /opt/***/taxi+_2B_zone_lookup.csv']
+[2022-12-08 14:46:29,083] {subprocess.py:85} INFO - Output:
+[2022-12-08 14:46:29,397] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,397] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,397] {subprocess.py:89} INFO - <!DOCTYPE html>
+[2022-12-08 14:46:29,397] {subprocess.py:89} INFO - <html lang="en">
+[2022-12-08 14:46:29,397] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,398] {subprocess.py:89} INFO - <head>
+[2022-12-08 14:46:29,398] {subprocess.py:89} INFO -   <title>Newyork Yellow Taxi Trip Data | Kaggle</title>
+[2022-12-08 14:46:29,398] {subprocess.py:89} INFO -   <meta charset="utf-8" />
+[2022-12-08 14:46:29,398] {subprocess.py:89} INFO -     <meta name="robots" content="index, follow" />
+[2022-12-08 14:46:29,398] {subprocess.py:89} INFO -   <meta name="description" content="The Dataset consist of NYC yellow taxi trip data. " />
+[2022-12-08 14:46:29,398] {subprocess.py:89} INFO -   <meta name="turbolinks-cache-control" content="no-cache" />
+[2022-12-08 14:46:29,398] {subprocess.py:89} INFO -     <meta name="keywords" content="finance,travel" />
+[2022-12-08 14:46:29,398] {subprocess.py:89} INFO -     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+[2022-12-08 14:46:29,398] {subprocess.py:89} INFO -   <meta name="theme-color" content="#008ABC" />
+[2022-12-08 14:46:29,398] {subprocess.py:89} INFO -   <script nonce="y1c3YFigpDF2KfPtMb5ssQ==" type="text/javascript">
+[2022-12-08 14:46:29,398] {subprocess.py:89} INFO -     window["pageRequestStartTime"] = 1670510789264;
+[2022-12-08 14:46:29,398] {subprocess.py:89} INFO -     window["pageRequestEndTime"] = 1670510789376;
+[2022-12-08 14:46:29,399] {subprocess.py:89} INFO -     window["initialPageLoadStartTime"] = new Date().getTime();
+[2022-12-08 14:46:29,399] {subprocess.py:89} INFO -   </script>
+[2022-12-08 14:46:29,399] {subprocess.py:89} INFO -   <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+[2022-12-08 14:46:29,399] {subprocess.py:89} INFO -   <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+[2022-12-08 14:46:29,399] {subprocess.py:89} INFO -   <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+[2022-12-08 14:46:29,399] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,399] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,399] {subprocess.py:89} INFO -   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+[2022-12-08 14:46:29,399] {subprocess.py:89} INFO -   <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons"
+[2022-12-08 14:46:29,399] {subprocess.py:89} INFO -     rel="preload" as="style" />
+[2022-12-08 14:46:29,399] {subprocess.py:89} INFO -   <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i"
+[2022-12-08 14:46:29,400] {subprocess.py:89} INFO -     rel="preload" as="style" />
+[2022-12-08 14:46:29,400] {subprocess.py:89} INFO -   <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons"
+[2022-12-08 14:46:29,400] {subprocess.py:89} INFO -     rel="stylesheet" media="print" id="async-google-font-1" />
+[2022-12-08 14:46:29,400] {subprocess.py:89} INFO -   <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i"
+[2022-12-08 14:46:29,400] {subprocess.py:89} INFO -     rel="stylesheet" media="print" id="async-google-font-2" />
+[2022-12-08 14:46:29,400] {subprocess.py:89} INFO -   <script nonce="y1c3YFigpDF2KfPtMb5ssQ==" type="text/javascript">
+[2022-12-08 14:46:29,400] {subprocess.py:89} INFO -     const styleSheetIds = ["async-google-font-1", "async-google-font-2"];
+[2022-12-08 14:46:29,400] {subprocess.py:89} INFO -     styleSheetIds.forEach(function (id) {
+[2022-12-08 14:46:29,400] {subprocess.py:89} INFO -       document.getElementById(id).addEventListener("load", function() {
+[2022-12-08 14:46:29,400] {subprocess.py:89} INFO -         this.media = "all";
+[2022-12-08 14:46:29,400] {subprocess.py:89} INFO -       });
+[2022-12-08 14:46:29,401] {subprocess.py:89} INFO -     });
+[2022-12-08 14:46:29,401] {subprocess.py:89} INFO -   </script>
+[2022-12-08 14:46:29,401] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,401] {subprocess.py:89} INFO -     <link rel="canonical" href="/datasets/microize/newyork-yellow-taxi-trip-data-2020-2019" />
+[2022-12-08 14:46:29,401] {subprocess.py:89} INFO -     <link rel="stylesheet" type="text/css" href="/static/assets/vendor.css?v=06cb5cb9eaebcdbf169c" />
+[2022-12-08 14:46:29,401] {subprocess.py:89} INFO -     <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=3016113948617e0598c0" />
+[2022-12-08 14:46:29,401] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,401] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,401] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,401] {subprocess.py:89} INFO -       <script nonce="y1c3YFigpDF2KfPtMb5ssQ==">
+[2022-12-08 14:46:29,401] {subprocess.py:89} INFO -         try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+[2022-12-08 14:46:29,402] {subprocess.py:89} INFO -         d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+[2022-12-08 14:46:29,402] {subprocess.py:89} INFO -         y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+[2022-12-08 14:46:29,402] {subprocess.py:89} INFO -         h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+[2022-12-08 14:46:29,402] {subprocess.py:89} INFO -         (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+[2022-12-08 14:46:29,402] {subprocess.py:89} INFO -         })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+[2022-12-08 14:46:29,402] {subprocess.py:89} INFO -     </script>
+[2022-12-08 14:46:29,402] {subprocess.py:89} INFO -     <script nonce="y1c3YFigpDF2KfPtMb5ssQ==">
+[2022-12-08 14:46:29,402] {subprocess.py:89} INFO -         window.dataLayer = window.dataLayer || [];
+[2022-12-08 14:46:29,402] {subprocess.py:89} INFO -         function gtag() { dataLayer.push(arguments); }
+[2022-12-08 14:46:29,403] {subprocess.py:89} INFO -         gtag('js', new Date());
+[2022-12-08 14:46:29,403] {subprocess.py:89} INFO -         gtag('config', 'UA-12629138-1', {
+[2022-12-08 14:46:29,403] {subprocess.py:89} INFO -             'optimize_id': 'GTM-52LNT9S',
+[2022-12-08 14:46:29,403] {subprocess.py:89} INFO -             'displayFeaturesTask': null,
+[2022-12-08 14:46:29,403] {subprocess.py:89} INFO -             'send_page_view': false,
+[2022-12-08 14:46:29,403] {subprocess.py:89} INFO -             'content_group1': 'Datasets'
+[2022-12-08 14:46:29,403] {subprocess.py:89} INFO -         });
+[2022-12-08 14:46:29,403] {subprocess.py:89} INFO -     </script>
+[2022-12-08 14:46:29,403] {subprocess.py:89} INFO -     <script nonce="y1c3YFigpDF2KfPtMb5ssQ==" async src="https://www.googletagmanager.com/gtag/js?id=UA-12629138-1"></script>
+[2022-12-08 14:46:29,403] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,403] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,404] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,404] {subprocess.py:89} INFO -     <meta property="og:url" content="/datasets/microize/newyork-yellow-taxi-trip-data-2020-2019" />
+[2022-12-08 14:46:29,404] {subprocess.py:89} INFO -     <meta property="og:title" content="Newyork Yellow Taxi Trip Data" />
+[2022-12-08 14:46:29,404] {subprocess.py:89} INFO -     <meta property="og:description" content="The Dataset consist of NYC yellow taxi trip data. " />
+[2022-12-08 14:46:29,404] {subprocess.py:89} INFO -     <meta property="og:type" content="website" />
+[2022-12-08 14:46:29,406] {subprocess.py:89} INFO -     <meta property="og:image" content="https://storage.googleapis.com/kaggle-datasets-images/823993/1409089/aabeabfbc4ce49bd6628243d857c708f/dataset-card.jpg?t=2020-08-10-07-30-20" />
+[2022-12-08 14:46:29,406] {subprocess.py:89} INFO -     <meta property="fb:app_id" content="2665027677054710" />
+[2022-12-08 14:46:29,406] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,407] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,407] {subprocess.py:89} INFO -     <meta name="twitter:card" content="summary" />
+[2022-12-08 14:46:29,407] {subprocess.py:89} INFO -     <meta name="twitter:site" content="@kaggledatasets" />
+[2022-12-08 14:46:29,407] {subprocess.py:89} INFO -         <meta name="twitter:creator" content="@SripathiMohana1" />
+[2022-12-08 14:46:29,407] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,408] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,408] {subprocess.py:89} INFO -   <meta name="twitter:site" content="@Kaggle" />
+[2022-12-08 14:46:29,408] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,408] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,408] {subprocess.py:89} INFO -     <script nonce="y1c3YFigpDF2KfPtMb5ssQ==" type="application/ld+json">{"@context":"http://schema.org/","@type":"Dataset","name":"Newyork Yellow Taxi Trip Data","description":"### Context\n\nThe yellow  taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts. The data used in the attached datasets were collected and provided to the NYC Taxi and Limousine Commission (TLC) by technology providers authorized under the Taxicab &amp; Livery Passenger Enhancement Programs (TPEP/LPEP). \n\n### Content\n\n**Column Description**\n\n* VendorID : A code indicating the TPEP provider that provided the record.\n---- 1= Creative Mobile Technologies, LLC; 2= VeriFone Inc.\n* tpep_pickup_datetime : The date and time when the meter was engaged.\n* tpep_dropoff_datetime : The date and time when the meter was disengaged.\n* Passenger_count : The number of passengers in the vehicle.( This is a driver-entered value )\n* Trip_distance : The elapsed trip distance in miles reported by the taximeter.\n* PULocationID : TLC Taxi Zone in which the taximeter was engaged\n* DOLocationID :TLC Taxi Zone in which the taximeter was disengaged\n*RateCodeID :  The final rate code in effect at the end of the trip.\n---- 1= Standard rate\n---- 2=JFK\n---- 3=Newark\n---- 4=Nassau or Westchester\n---- 5=Negotiated fare\n---- 6=Group ride\n* Store_and_fwd_flag :  This flag indicates whether the trip record was held in vehicle\nmemory before sending to the vendor, aka “store and forward,”\nbecause the vehicle did not have a connection to the server.\n---- Y= store and forward trip\n---- N= not a store and forward trip\n* Payment_type A numeric code signifying how the passenger paid for the trip.\n---- 1= Credit card\n---- 2= Cash\n---- 3= No charge\n---- 4= Dispute\n---- 5= Unknown\n---- 6= Voided trip\n* Fare_amount : The time-and-distance fare calculated by the meter.\n* Extra : Miscellaneous extras and surcharges. Currently, this only includes\nthe $0.50 and $1 rush hour and overnight charges.\n* MTA_tax : $0.50 MTA tax that is automatically triggered based on the metered\nrate in use.\n* Improvement_surcharge : $0.30 improvement surcharge assessed trips at the flag drop. The\nimprovement surcharge began being levied in 2015.\n* Tip_amount : Tip amount – This field is automatically populated for credit card\ntips. Cash tips are not included.\n* Tolls_amount : Total amount of all tolls paid in trip.\n* Total_amount : The total amount charged to passengers. Does not include cash tips.\n\n\n### Acknowledgements\n\nData is obtained from NYCTaxi &amp; Limousine Commission website.\nhttps://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page","url":"https://www.kaggle.com/microize/newyork-yellow-taxi-trip-data-2020-2019","version":25,"keywords":["subject, people and society, business, finance","subject, people and society, business, travel"],"license":{"@type":"CreativeWork","name":"Database: Open Database, Contents: © Original Authors","url":"http://opendatacommons.org/licenses/odbl/1.0/"},"identifier":["823993"],"includedInDataCatalog":{"@type":"DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"Person","name":"Sripathi Mohanasundaram","url":"https://www.kaggle.com/microize","image":"https://storage.googleapis.com/kaggle-avatars/thumbnails/1171944-gp.jpg"},"distribution":[{"@type":"DataDownload","requiresSubscription":true,"encodingFormat":"zip","fileFormat":"zip","contentUrl":"https://www.kaggle.com/datasets/microize/newyork-yellow-taxi-trip-data-2020-2019/download?datasetVersionNumber=25","contentSize":"1938408118 bytes"}],"commentCount":1,"dateModified":"2022-05-02T01:22:55.573Z","discussionUrl":"https://www.kaggle.com/microize/newyork-yellow-taxi-trip-data-2020-2019/discussion","alternateName":"The Dataset consist of NYC yellow taxi trip data. ","isAccessibleForFree":true,"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/823993/1409089/aabeabfbc4ce49bd6628243d857c708f/dataset-card.jpg?t=2020-08-10-07-30-20","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":1},{"@type":"InteractionCounter","interactionType":"http://schema.org/DownloadAction","userInteractionCount":2516},{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":18299},{"@type":"InteractionCounter","interactionType":"http://schema.org/LikeAction","userInteractionCount":37}]}</script>
+[2022-12-08 14:46:29,409] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,409] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,409] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,409] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,409] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,409] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,409] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,409] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,409] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,409] {subprocess.py:89} INFO -     <script nonce="y1c3YFigpDF2KfPtMb5ssQ==">window['useKaggleAnalytics'] = true;</script>
+[2022-12-08 14:46:29,409] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,410] {subprocess.py:89} INFO -   <script id="gapi-target" nonce="y1c3YFigpDF2KfPtMb5ssQ==" src="https://apis.google.com/js/api.js" defer
+[2022-12-08 14:46:29,410] {subprocess.py:89} INFO -     async></script>
+[2022-12-08 14:46:29,410] {subprocess.py:89} INFO -   <script nonce="y1c3YFigpDF2KfPtMb5ssQ==" src="/static/assets/runtime.js?v=c0c0266783a09228803d" data-turbolinks-track="reload"></script>
+[2022-12-08 14:46:29,410] {subprocess.py:89} INFO -   <script nonce="y1c3YFigpDF2KfPtMb5ssQ==" src="/static/assets/vendor.js?v=f295fd4b1ac0499a6731" data-turbolinks-track="reload"></script>
+[2022-12-08 14:46:29,410] {subprocess.py:89} INFO -   <script nonce="y1c3YFigpDF2KfPtMb5ssQ==" src="/static/assets/app.js?v=17cbf22e936e2e6390b1" data-turbolinks-track="reload"></script>
+[2022-12-08 14:46:29,410] {subprocess.py:89} INFO -     <script nonce="y1c3YFigpDF2KfPtMb5ssQ==" type="text/javascript">
+[2022-12-08 14:46:29,410] {subprocess.py:89} INFO -       window.kaggleStackdriverConfig = {
+[2022-12-08 14:46:29,410] {subprocess.py:89} INFO -         key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
+[2022-12-08 14:46:29,410] {subprocess.py:89} INFO -         projectId: 'kaggle-161607',
+[2022-12-08 14:46:29,410] {subprocess.py:89} INFO -         service: 'web-fe',
+[2022-12-08 14:46:29,410] {subprocess.py:89} INFO -         version: 'ci',
+[2022-12-08 14:46:29,411] {subprocess.py:89} INFO -         userId: '0'
+[2022-12-08 14:46:29,411] {subprocess.py:89} INFO -       }
+[2022-12-08 14:46:29,411] {subprocess.py:89} INFO -     </script>
+[2022-12-08 14:46:29,411] {subprocess.py:89} INFO - </head>
+[2022-12-08 14:46:29,411] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,411] {subprocess.py:89} INFO - <body data-turbolinks="false">
+[2022-12-08 14:46:29,411] {subprocess.py:89} INFO -   <main>
+[2022-12-08 14:46:29,411] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,411] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,411] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,411] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,411] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,411] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,411] {subprocess.py:89} INFO - <div id="site-container"></div>
+[2022-12-08 14:46:29,412] {subprocess.py:89} INFO - <div data-component-name="NavigationContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="y1c3YFigpDF2KfPtMb5ssQ==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"navigationType":"BOTH_NAV"});performance && performance.mark && performance.mark("NavigationContainer.componentCouldBootstrap");</script>
+[2022-12-08 14:46:29,412] {subprocess.py:89} INFO - <div id="site-body" class="hide">
+[2022-12-08 14:46:29,412] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,412] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,412] {subprocess.py:89} INFO - <div data-component-name="DatasetMaterialContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="y1c3YFigpDF2KfPtMb5ssQ==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"basics":{"datasetId":823993,"slug":"newyork-yellow-taxi-trip-data-2020-2019","title":"Newyork Yellow Taxi Trip Data","description":"### Context\n\nThe yellow  taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts. The data used in the attached datasets were collected and provided to the NYC Taxi and Limousine Commission (TLC) by technology providers authorized under the Taxicab \u0026 Livery Passenger Enhancement Programs (TPEP/LPEP). \n\n### Content\n\n**Column Description**\n\n* VendorID : A code indicating the TPEP provider that provided the record.\n---- 1= Creative Mobile Technologies, LLC; 2= VeriFone Inc.\n* tpep_pickup_datetime : The date and time when the meter was engaged.\n* tpep_dropoff_datetime : The date and time when the meter was disengaged.\n* Passenger_count : The number of passengers in the vehicle.( This is a driver-entered value )\n* Trip_distance : The elapsed trip distance in miles reported by the taximeter.\n* PULocationID : TLC Taxi Zone in which the taximeter was engaged\n* DOLocationID :TLC Taxi Zone in which the taximeter was disengaged\n*RateCodeID :  The final rate code in effect at the end of the trip.\n---- 1= Standard rate\n---- 2=JFK\n---- 3=Newark\n---- 4=Nassau or Westchester\n---- 5=Negotiated fare\n---- 6=Group ride\n* Store_and_fwd_flag :  This flag indicates whether the trip record was held in vehicle\nmemory before sending to the vendor, aka \u201Cstore and forward,\u201D\nbecause the vehicle did not have a connection to the server.\n---- Y= store and forward trip\n---- N= not a store and forward trip\n* Payment_type A numeric code signifying how the passenger paid for the trip.\n---- 1= Credit card\n---- 2= Cash\n---- 3= No charge\n---- 4= Dispute\n---- 5= Unknown\n---- 6= Voided trip\n* Fare_amount : The time-and-distance fare calculated by the meter.\n* Extra : Miscellaneous extras and surcharges. Currently, this only includes\nthe $0.50 and $1 rush hour and overnight charges.\n* MTA_tax : $0.50 MTA tax that is automatically triggered based on the metered\nrate in use.\n* Improvement_surcharge : $0.30 improvement surcharge assessed trips at the flag drop. The\nimprovement surcharge began being levied in 2015.\n* Tip_amount : Tip amount \u2013 This field is automatically populated for credit card\ntips. Cash tips are not included.\n* Tolls_amount : Total amount of all tolls paid in trip.\n* Total_amount : The total amount charged to passengers. Does not include cash tips.\n\n\n### Acknowledgements\n\nData is obtained from NYCTaxi \u0026 Limousine Commission website.\nhttps://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page","viewCount":18299,"downloadCount":2516,"scriptCount":6,"topicCount":1,"owner":{"id":1171944,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/1171944-gp.jpg","name":"Sripathi Mohanasundaram","profileUrl":"/microize","slug":"microize","userTier":"CONTRIBUTOR"},"license":{"id":6,"name":"Database: Open Database, Contents: \u00A9 Original Authors","url":"http://opendatacommons.org/licenses/odbl/1.0/"},"overview":"The Dataset consist of NYC yellow taxi trip data. ","collaboratorList":{"owner":{"userId":1171944,"profileUrl":"/microize","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/1171944-gp.jpg","name":"Sripathi Mohanasundaram","slug":"microize","userTier":"CONTRIBUTOR","type":"OWNER"}},"coverImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/823993/1409089/aabeabfbc4ce49bd6628243d857c708f/dataset-cover.jpg?t=2020-08-10-07-30-20","data":{"totalSize":1938408118,"isFileset":true,"canDownload":true,"firestorePath":"p1nGeKRVzHySUoNo3q1y/versions/nF4v4d9ip4V8l0v2T6d9","downloadUrl":"/datasets/microize/microize/download?datasetVersionNumber=25","versionId":3614815,"id":844562},"voteCount":37,"medalUrl":"/static/images/medals/datasets/bronzel@2x.png","downloadUrl":"/datasets/microize/newyork-yellow-taxi-trip-data-2020-2019/download?datasetVersionNumber=25","lastUpdateTime":"2022-05-02T01:22:55.573Z","datasetVersionNumber":25,"creatorDisplayName":"Sripathi Mohanasundaram","cardImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/823993/1409089/aabeabfbc4ce49bd6628243d857c708f/dataset-card.jpg?t=2020-08-10-07-30-20","categories":{"tags":[{"id":11108,"name":"finance","fullPath":"subject \u003E people and society \u003E business \u003E finance","listingUrl":"/datasets?group=public\u0026tagids=11108","description":"The finance tag covers datasets and kernels about money and investing. If you need to test some new cryptocurrency investment strategies or ward off those pesky credit card fraud enthusiasts, then you\u0027ve come to the right place.","datasetCount":4807,"competitionCount":10,"notebookCount":3664,"tagUrl":"/tags/finance","displayName":"Finance","fontAwesomeIcon":"bar-chart"},{"id":16461,"name":"travel","fullPath":"subject \u003E people and society \u003E business \u003E travel","listingUrl":"/datasets?group=public\u0026tagids=16461","description":"","datasetCount":3333,"notebookCount":1321,"tagUrl":"/tags/travel","displayName":"Travel"}]},"datasetExternalUrl":"https://www.kaggle.com/datasets/microize/newyork-yellow-taxi-trip-data-2020-2019","ownerTwitter":"SripathiMohana1","forumId":839115,"datasetVersionId":3561719,"canCreateTasks":true,"moderationStatus":"PRIVATED_MODERATION_STATUS_NO_ABUSE","lastVersionNumber":25,"diffType":"VERSIONED"},"@wf": "Datasets.DatasetMaterialDtoWireFormat3"});performance && performance.mark && performance.mark("DatasetMaterialContainer.componentCouldBootstrap");</script><script nonce="y1c3YFigpDF2KfPtMb5ssQ==" type="text/x-mathjax-config">
+[2022-12-08 14:46:29,412] {subprocess.py:89} INFO -     MathJax.Hub.Config({
+[2022-12-08 14:46:29,412] {subprocess.py:89} INFO -     "HTML-CSS": {
+[2022-12-08 14:46:29,412] {subprocess.py:89} INFO -     preferredFont: "TeX",
+[2022-12-08 14:46:29,412] {subprocess.py:89} INFO -     availableFonts: ["STIX", "TeX"],
+[2022-12-08 14:46:29,412] {subprocess.py:89} INFO -     linebreaks: {
+[2022-12-08 14:46:29,412] {subprocess.py:89} INFO -     automatic: true
+[2022-12-08 14:46:29,412] {subprocess.py:89} INFO -     },
+[2022-12-08 14:46:29,413] {subprocess.py:89} INFO -     EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+[2022-12-08 14:46:29,413] {subprocess.py:89} INFO -     },
+[2022-12-08 14:46:29,413] {subprocess.py:89} INFO -     tex2jax: {
+[2022-12-08 14:46:29,413] {subprocess.py:89} INFO -     inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+[2022-12-08 14:46:29,413] {subprocess.py:89} INFO -     displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+[2022-12-08 14:46:29,413] {subprocess.py:89} INFO -     processEscapes: true,
+[2022-12-08 14:46:29,413] {subprocess.py:89} INFO -     ignoreClass: "tex2jax_ignore|dno"
+[2022-12-08 14:46:29,413] {subprocess.py:89} INFO -     },
+[2022-12-08 14:46:29,413] {subprocess.py:89} INFO -     TeX: {
+[2022-12-08 14:46:29,413] {subprocess.py:89} INFO -     noUndefined: {
+[2022-12-08 14:46:29,413] {subprocess.py:89} INFO -     attributes: {
+[2022-12-08 14:46:29,413] {subprocess.py:89} INFO -     mathcolor: "red",
+[2022-12-08 14:46:29,414] {subprocess.py:89} INFO -     mathbackground: "#FFEEEE",
+[2022-12-08 14:46:29,414] {subprocess.py:89} INFO -     mathsize: "90%"
+[2022-12-08 14:46:29,414] {subprocess.py:89} INFO -     }
+[2022-12-08 14:46:29,414] {subprocess.py:89} INFO -     }
+[2022-12-08 14:46:29,414] {subprocess.py:89} INFO -     },
+[2022-12-08 14:46:29,414] {subprocess.py:89} INFO -     Macros: {
+[2022-12-08 14:46:29,414] {subprocess.py:89} INFO -     href: "{}"
+[2022-12-08 14:46:29,414] {subprocess.py:89} INFO -     },
+[2022-12-08 14:46:29,414] {subprocess.py:89} INFO -     skipStartupTypeset: true,
+[2022-12-08 14:46:29,414] {subprocess.py:89} INFO -     messageStyle: "none",
+[2022-12-08 14:46:29,414] {subprocess.py:89} INFO -     extensions: ["Safe.js"],
+[2022-12-08 14:46:29,414] {subprocess.py:89} INFO -     });
+[2022-12-08 14:46:29,415] {subprocess.py:89} INFO - </script>
+[2022-12-08 14:46:29,415] {subprocess.py:89} INFO - <script type="text/javascript" nonce="y1c3YFigpDF2KfPtMb5ssQ==">
+[2022-12-08 14:46:29,415] {subprocess.py:89} INFO -   window.addEventListener("DOMContentLoaded", () => {
+[2022-12-08 14:46:29,415] {subprocess.py:89} INFO -     const head = document.getElementsByTagName("head")[0];
+[2022-12-08 14:46:29,415] {subprocess.py:89} INFO -     const useProdHosts = ["www.kaggle.com", "admin.kaggle.com"];
+[2022-12-08 14:46:29,415] {subprocess.py:89} INFO -     const subdomain = useProdHosts.includes(window.location.hostname) ? "www" : "staging";
+[2022-12-08 14:46:29,415] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,415] {subprocess.py:89} INFO -     const lib = document.createElement("script");
+[2022-12-08 14:46:29,415] {subprocess.py:89} INFO -     lib.type = "text/javascript";
+[2022-12-08 14:46:29,415] {subprocess.py:89} INFO -     lib.src = `https://${subdomain}.kaggleusercontent.com/static/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML`;
+[2022-12-08 14:46:29,415] {subprocess.py:89} INFO -     head.appendChild(lib);
+[2022-12-08 14:46:29,416] {subprocess.py:89} INFO -   });
+[2022-12-08 14:46:29,416] {subprocess.py:89} INFO - </script>
+[2022-12-08 14:46:29,416] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,416] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,416] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,416] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,416] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,416] {subprocess.py:89} INFO - </div>
+[2022-12-08 14:46:29,416] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,416] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,416] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,416] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,417] {subprocess.py:89} INFO -   </main>
+[2022-12-08 14:46:29,417] {subprocess.py:89} INFO - </body>
+[2022-12-08 14:46:29,417] {subprocess.py:89} INFO - 
+[2022-12-08 14:46:29,417] {subprocess.py:89} INFO - </html>
+[2022-12-08 14:46:29,417] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-12-08 14:46:29,482] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=data_ingestion_taxizone_dag, task_id=download_dataset_task, execution_date=20221207T000000, start_date=20221208T144628, end_date=20221208T144629
+[2022-12-08 14:46:29,533] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-12-08 14:46:29,645] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

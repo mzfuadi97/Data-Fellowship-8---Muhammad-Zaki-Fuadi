@@ -1,0 +1,768 @@
+[2022-12-11 07:22:32,285] {processor.py:163} INFO - Started process (PID=64) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:22:32,287] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:22:32,288] {logging_mixin.py:109} INFO - [2022-12-11 07:22:32,288] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:22:49,689] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:22:52,922] {logging_mixin.py:109} INFO - [2022-12-11 07:22:52,922] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:22:53,165] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 20.959 seconds
+[2022-12-11 07:23:23,680] {processor.py:163} INFO - Started process (PID=99) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:23:23,731] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:23:23,758] {logging_mixin.py:109} INFO - [2022-12-11 07:23:23,757] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:23:37,993] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:23:38,109] {logging_mixin.py:109} INFO - [2022-12-11 07:23:38,100] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:23:38,446] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 14.837 seconds
+[2022-12-11 07:24:08,888] {processor.py:163} INFO - Started process (PID=123) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:24:08,903] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:24:08,906] {logging_mixin.py:109} INFO - [2022-12-11 07:24:08,905] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:24:16,200] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:24:16,268] {logging_mixin.py:109} INFO - [2022-12-11 07:24:16,267] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:24:16,507] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 7.630 seconds
+[2022-12-11 07:24:46,804] {processor.py:163} INFO - Started process (PID=149) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:24:46,810] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:24:46,814] {logging_mixin.py:109} INFO - [2022-12-11 07:24:46,814] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:24:48,670] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:24:48,687] {logging_mixin.py:109} INFO - [2022-12-11 07:24:48,686] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:24:48,722] {logging_mixin.py:109} INFO - [2022-12-11 07:24:48,721] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-10T00:00:00+00:00
+[2022-12-11 07:24:48,740] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 1.947 seconds
+[2022-12-11 07:25:19,110] {processor.py:163} INFO - Started process (PID=174) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:25:19,112] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:25:19,114] {logging_mixin.py:109} INFO - [2022-12-11 07:25:19,113] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:25:21,932] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:25:21,946] {logging_mixin.py:109} INFO - [2022-12-11 07:25:21,946] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:25:22,017] {logging_mixin.py:109} INFO - [2022-12-11 07:25:22,017] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:25:22,057] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 2.962 seconds
+[2022-12-11 07:25:52,268] {processor.py:163} INFO - Started process (PID=203) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:25:52,270] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:25:52,271] {logging_mixin.py:109} INFO - [2022-12-11 07:25:52,271] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:25:53,648] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:25:53,665] {logging_mixin.py:109} INFO - [2022-12-11 07:25:53,664] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:25:53,694] {logging_mixin.py:109} INFO - [2022-12-11 07:25:53,694] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:25:53,709] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 1.448 seconds
+[2022-12-11 07:26:23,908] {processor.py:163} INFO - Started process (PID=226) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:26:23,911] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:26:23,912] {logging_mixin.py:109} INFO - [2022-12-11 07:26:23,912] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:26:25,350] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:26:25,387] {logging_mixin.py:109} INFO - [2022-12-11 07:26:25,386] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:26:25,408] {logging_mixin.py:109} INFO - [2022-12-11 07:26:25,408] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:26:25,418] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 1.517 seconds
+[2022-12-11 07:26:55,558] {processor.py:163} INFO - Started process (PID=251) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:26:55,568] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:26:55,570] {logging_mixin.py:109} INFO - [2022-12-11 07:26:55,570] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:26:57,834] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:26:57,875] {logging_mixin.py:109} INFO - [2022-12-11 07:26:57,875] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:26:57,941] {logging_mixin.py:109} INFO - [2022-12-11 07:26:57,940] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:26:57,976] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 2.424 seconds
+[2022-12-11 07:27:28,140] {processor.py:163} INFO - Started process (PID=292) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:27:28,146] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:27:28,147] {logging_mixin.py:109} INFO - [2022-12-11 07:27:28,147] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:27:30,963] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:27:30,994] {logging_mixin.py:109} INFO - [2022-12-11 07:27:30,993] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:27:31,052] {logging_mixin.py:109} INFO - [2022-12-11 07:27:31,052] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:27:31,096] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 2.962 seconds
+[2022-12-11 07:28:01,388] {processor.py:163} INFO - Started process (PID=317) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:28:01,392] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:28:01,395] {logging_mixin.py:109} INFO - [2022-12-11 07:28:01,395] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:28:03,227] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:28:03,237] {logging_mixin.py:109} INFO - [2022-12-11 07:28:03,236] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:28:03,256] {logging_mixin.py:109} INFO - [2022-12-11 07:28:03,256] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:28:03,266] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 1.885 seconds
+[2022-12-11 07:28:33,378] {processor.py:163} INFO - Started process (PID=352) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:28:33,380] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:28:33,382] {logging_mixin.py:109} INFO - [2022-12-11 07:28:33,382] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:28:34,868] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:28:34,884] {logging_mixin.py:109} INFO - [2022-12-11 07:28:34,884] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:28:34,917] {logging_mixin.py:109} INFO - [2022-12-11 07:28:34,917] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:28:34,934] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 1.564 seconds
+[2022-12-11 07:29:05,185] {processor.py:163} INFO - Started process (PID=377) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:29:05,194] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:29:05,195] {logging_mixin.py:109} INFO - [2022-12-11 07:29:05,195] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:29:10,161] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:29:10,177] {logging_mixin.py:109} INFO - [2022-12-11 07:29:10,176] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:29:10,281] {logging_mixin.py:109} INFO - [2022-12-11 07:29:10,279] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:29:10,333] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 5.149 seconds
+[2022-12-11 07:29:40,747] {processor.py:163} INFO - Started process (PID=401) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:29:40,770] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:29:40,782] {logging_mixin.py:109} INFO - [2022-12-11 07:29:40,781] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:29:46,112] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:29:46,153] {logging_mixin.py:109} INFO - [2022-12-11 07:29:46,153] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:29:46,249] {logging_mixin.py:109} INFO - [2022-12-11 07:29:46,249] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:29:46,284] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 5.572 seconds
+[2022-12-11 07:30:16,539] {processor.py:163} INFO - Started process (PID=425) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:30:16,554] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:30:16,555] {logging_mixin.py:109} INFO - [2022-12-11 07:30:16,555] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:30:22,366] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:30:22,397] {logging_mixin.py:109} INFO - [2022-12-11 07:30:22,397] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:30:22,448] {logging_mixin.py:109} INFO - [2022-12-11 07:30:22,447] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:30:22,481] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 5.990 seconds
+[2022-12-11 07:30:52,671] {processor.py:163} INFO - Started process (PID=450) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:30:52,682] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:30:52,691] {logging_mixin.py:109} INFO - [2022-12-11 07:30:52,691] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:30:56,359] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:30:56,408] {logging_mixin.py:109} INFO - [2022-12-11 07:30:56,407] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:30:56,447] {logging_mixin.py:109} INFO - [2022-12-11 07:30:56,446] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:30:56,477] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 3.824 seconds
+[2022-12-11 07:31:26,700] {processor.py:163} INFO - Started process (PID=481) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:31:26,714] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:31:26,715] {logging_mixin.py:109} INFO - [2022-12-11 07:31:26,715] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:31:28,677] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:31:28,691] {logging_mixin.py:109} INFO - [2022-12-11 07:31:28,690] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:31:28,718] {logging_mixin.py:109} INFO - [2022-12-11 07:31:28,718] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:31:28,731] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 2.037 seconds
+[2022-12-11 07:31:58,959] {processor.py:163} INFO - Started process (PID=506) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:31:58,966] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:31:58,968] {logging_mixin.py:109} INFO - [2022-12-11 07:31:58,967] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:32:00,318] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:32:00,331] {logging_mixin.py:109} INFO - [2022-12-11 07:32:00,331] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:32:00,348] {logging_mixin.py:109} INFO - [2022-12-11 07:32:00,348] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:32:00,359] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 1.417 seconds
+[2022-12-11 07:32:30,478] {processor.py:163} INFO - Started process (PID=529) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:32:30,480] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:32:30,481] {logging_mixin.py:109} INFO - [2022-12-11 07:32:30,481] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:32:32,887] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:32:32,901] {logging_mixin.py:109} INFO - [2022-12-11 07:32:32,900] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:32:32,928] {logging_mixin.py:109} INFO - [2022-12-11 07:32:32,928] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:32:32,944] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 2.483 seconds
+[2022-12-11 07:33:03,113] {processor.py:163} INFO - Started process (PID=553) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:33:03,114] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:33:03,115] {logging_mixin.py:109} INFO - [2022-12-11 07:33:03,115] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:33:06,071] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:33:06,129] {logging_mixin.py:109} INFO - [2022-12-11 07:33:06,123] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:33:06,208] {logging_mixin.py:109} INFO - [2022-12-11 07:33:06,208] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:33:06,250] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 3.141 seconds
+[2022-12-11 07:33:36,471] {processor.py:163} INFO - Started process (PID=586) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:33:36,482] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:33:36,483] {logging_mixin.py:109} INFO - [2022-12-11 07:33:36,483] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:33:42,215] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:33:42,246] {logging_mixin.py:109} INFO - [2022-12-11 07:33:42,245] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:33:42,324] {logging_mixin.py:109} INFO - [2022-12-11 07:33:42,324] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:33:42,381] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 5.924 seconds
+[2022-12-11 07:34:12,879] {processor.py:163} INFO - Started process (PID=602) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:34:12,895] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:34:12,901] {logging_mixin.py:109} INFO - [2022-12-11 07:34:12,901] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:34:15,097] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:34:15,112] {logging_mixin.py:109} INFO - [2022-12-11 07:34:15,112] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:34:15,141] {logging_mixin.py:109} INFO - [2022-12-11 07:34:15,140] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:34:15,159] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 2.333 seconds
+[2022-12-11 07:34:45,369] {processor.py:163} INFO - Started process (PID=637) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:34:45,374] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:34:45,377] {logging_mixin.py:109} INFO - [2022-12-11 07:34:45,377] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:34:47,779] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:34:47,795] {logging_mixin.py:109} INFO - [2022-12-11 07:34:47,794] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:34:47,823] {logging_mixin.py:109} INFO - [2022-12-11 07:34:47,823] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:34:47,847] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 2.488 seconds
+[2022-12-11 07:35:18,014] {processor.py:163} INFO - Started process (PID=662) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:35:18,017] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:35:18,018] {logging_mixin.py:109} INFO - [2022-12-11 07:35:18,018] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:35:19,477] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:35:19,490] {logging_mixin.py:109} INFO - [2022-12-11 07:35:19,490] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:35:19,519] {logging_mixin.py:109} INFO - [2022-12-11 07:35:19,519] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:35:19,531] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 1.523 seconds
+[2022-12-11 07:35:49,767] {processor.py:163} INFO - Started process (PID=686) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:35:49,771] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:35:49,772] {logging_mixin.py:109} INFO - [2022-12-11 07:35:49,772] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:35:51,282] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:35:51,291] {logging_mixin.py:109} INFO - [2022-12-11 07:35:51,291] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:35:51,309] {logging_mixin.py:109} INFO - [2022-12-11 07:35:51,309] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:35:51,321] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 1.561 seconds
+[2022-12-11 07:36:21,424] {processor.py:163} INFO - Started process (PID=710) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:36:21,434] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:36:21,435] {logging_mixin.py:109} INFO - [2022-12-11 07:36:21,435] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:36:24,155] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:36:24,180] {logging_mixin.py:109} INFO - [2022-12-11 07:36:24,180] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:36:24,209] {logging_mixin.py:109} INFO - [2022-12-11 07:36:24,209] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:36:24,226] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 2.808 seconds
+[2022-12-11 07:36:54,435] {processor.py:163} INFO - Started process (PID=740) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:36:54,437] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:36:54,438] {logging_mixin.py:109} INFO - [2022-12-11 07:36:54,438] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:36:57,027] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:36:57,042] {logging_mixin.py:109} INFO - [2022-12-11 07:36:57,041] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:36:57,069] {logging_mixin.py:109} INFO - [2022-12-11 07:36:57,069] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:36:57,089] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 2.661 seconds
+[2022-12-11 07:37:27,238] {processor.py:163} INFO - Started process (PID=780) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:37:27,249] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:37:27,251] {logging_mixin.py:109} INFO - [2022-12-11 07:37:27,250] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:37:31,723] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:37:31,803] {logging_mixin.py:109} INFO - [2022-12-11 07:37:31,802] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:37:31,860] {logging_mixin.py:109} INFO - [2022-12-11 07:37:31,860] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:37:31,894] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 4.702 seconds
+[2022-12-11 07:38:01,987] {processor.py:163} INFO - Started process (PID=805) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:38:01,994] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:38:02,001] {logging_mixin.py:109} INFO - [2022-12-11 07:38:02,001] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:38:05,350] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:38:05,398] {logging_mixin.py:109} INFO - [2022-12-11 07:38:05,397] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:38:05,428] {logging_mixin.py:109} INFO - [2022-12-11 07:38:05,428] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:38:05,441] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 3.459 seconds
+[2022-12-11 07:38:35,533] {processor.py:163} INFO - Started process (PID=844) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:38:35,535] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:38:35,536] {logging_mixin.py:109} INFO - [2022-12-11 07:38:35,536] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:38:36,874] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:38:36,887] {logging_mixin.py:109} INFO - [2022-12-11 07:38:36,887] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:38:36,914] {logging_mixin.py:109} INFO - [2022-12-11 07:38:36,914] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:38:36,927] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 1.401 seconds
+[2022-12-11 07:39:07,089] {processor.py:163} INFO - Started process (PID=870) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:39:07,091] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:39:07,092] {logging_mixin.py:109} INFO - [2022-12-11 07:39:07,092] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:39:08,380] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:39:08,394] {logging_mixin.py:109} INFO - [2022-12-11 07:39:08,393] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:39:08,426] {logging_mixin.py:109} INFO - [2022-12-11 07:39:08,425] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:39:08,452] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 1.370 seconds
+[2022-12-11 07:39:38,647] {processor.py:163} INFO - Started process (PID=897) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:39:38,651] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:39:38,652] {logging_mixin.py:109} INFO - [2022-12-11 07:39:38,652] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:39:40,201] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:39:40,211] {logging_mixin.py:109} INFO - [2022-12-11 07:39:40,210] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:39:40,230] {logging_mixin.py:109} INFO - [2022-12-11 07:39:40,230] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:39:40,239] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 1.599 seconds
+[2022-12-11 07:40:10,341] {processor.py:163} INFO - Started process (PID=922) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:40:10,344] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:40:10,346] {logging_mixin.py:109} INFO - [2022-12-11 07:40:10,346] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:40:12,435] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:40:12,480] {logging_mixin.py:109} INFO - [2022-12-11 07:40:12,479] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:40:12,544] {logging_mixin.py:109} INFO - [2022-12-11 07:40:12,544] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:40:12,569] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 2.235 seconds
+[2022-12-11 07:40:42,764] {processor.py:163} INFO - Started process (PID=959) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:40:42,768] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:40:42,773] {logging_mixin.py:109} INFO - [2022-12-11 07:40:42,773] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:40:45,610] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:40:45,637] {logging_mixin.py:109} INFO - [2022-12-11 07:40:45,637] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:40:45,700] {logging_mixin.py:109} INFO - [2022-12-11 07:40:45,700] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:40:45,737] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 2.980 seconds
+[2022-12-11 07:41:15,989] {processor.py:163} INFO - Started process (PID=987) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:41:15,994] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:41:16,001] {logging_mixin.py:109} INFO - [2022-12-11 07:41:15,995] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:41:19,688] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:41:19,703] {logging_mixin.py:109} INFO - [2022-12-11 07:41:19,703] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:41:19,735] {logging_mixin.py:109} INFO - [2022-12-11 07:41:19,735] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:41:19,754] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 3.787 seconds
+[2022-12-11 07:41:49,870] {processor.py:163} INFO - Started process (PID=1021) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:41:49,872] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:41:49,873] {logging_mixin.py:109} INFO - [2022-12-11 07:41:49,873] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:41:52,541] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:41:52,561] {logging_mixin.py:109} INFO - [2022-12-11 07:41:52,560] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:41:52,590] {logging_mixin.py:109} INFO - [2022-12-11 07:41:52,590] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:41:52,620] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 2.757 seconds
+[2022-12-11 07:42:22,820] {processor.py:163} INFO - Started process (PID=1048) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:42:22,822] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:42:22,823] {logging_mixin.py:109} INFO - [2022-12-11 07:42:22,823] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:42:24,028] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:42:24,039] {logging_mixin.py:109} INFO - [2022-12-11 07:42:24,039] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:42:24,059] {logging_mixin.py:109} INFO - [2022-12-11 07:42:24,059] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:42:24,069] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 1.255 seconds
+[2022-12-11 07:42:54,328] {processor.py:163} INFO - Started process (PID=1074) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:42:54,335] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:42:54,348] {logging_mixin.py:109} INFO - [2022-12-11 07:42:54,347] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:42:55,654] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_yellowtax_dag']) retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:42:55,668] {logging_mixin.py:109} INFO - [2022-12-11 07:42:55,668] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-11 07:42:55,689] {logging_mixin.py:109} INFO - [2022-12-11 07:42:55,689] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_yellowtax_dag to 2022-12-11T00:00:00+00:00
+[2022-12-11 07:42:55,700] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 1.383 seconds
+[2022-12-11 07:43:23,178] {processor.py:163} INFO - Started process (PID=1097) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:43:23,180] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:43:23,181] {logging_mixin.py:109} INFO - [2022-12-11 07:43:23,180] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:43:24,469] {logging_mixin.py:109} INFO - [2022-12-11 07:43:24,466] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_yellowtax_dag.py", line 26, in <module>
+    dataset_url = f"https://d37ci6vzurychx.cloudfront.net/trip-data/{dataset_file}"
+NameError: name 'dataset_file' is not defined
+[2022-12-11 07:43:24,488] {processor.py:690} INFO - Deactivated 1 DAGs which are no longer present in /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:43:24,488] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:43:24,501] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 1.328 seconds
+[2022-12-11 07:43:28,550] {processor.py:163} INFO - Started process (PID=1115) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:43:28,551] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:43:28,552] {logging_mixin.py:109} INFO - [2022-12-11 07:43:28,552] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:43:29,926] {logging_mixin.py:109} INFO - [2022-12-11 07:43:29,925] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_yellowtax_dag.py", line 26, in <module>
+    dataset_url1 = f"https://d37ci6vzurychx.cloudfront.net/trip-data/{dataset_file}"
+NameError: name 'dataset_file' is not defined
+[2022-12-11 07:43:29,946] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:43:29,958] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 1.413 seconds
+[2022-12-11 07:44:00,056] {processor.py:163} INFO - Started process (PID=1140) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:44:00,063] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:44:00,065] {logging_mixin.py:109} INFO - [2022-12-11 07:44:00,064] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:44:01,587] {logging_mixin.py:109} INFO - [2022-12-11 07:44:01,586] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_yellowtax_dag.py", line 26, in <module>
+    dataset_url1 = f"https://d37ci6vzurychx.cloudfront.net/trip-data/{dataset_file}"
+NameError: name 'dataset_file' is not defined
+[2022-12-11 07:44:01,616] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:44:01,637] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 1.587 seconds
+[2022-12-11 07:44:31,774] {processor.py:163} INFO - Started process (PID=1174) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:44:31,784] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:44:31,787] {logging_mixin.py:109} INFO - [2022-12-11 07:44:31,786] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:44:33,826] {logging_mixin.py:109} INFO - [2022-12-11 07:44:33,825] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_yellowtax_dag.py", line 26, in <module>
+    dataset_url1 = f"https://d37ci6vzurychx.cloudfront.net/trip-data/{dataset_file}"
+NameError: name 'dataset_file' is not defined
+[2022-12-11 07:44:33,846] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:44:33,856] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 2.102 seconds
+[2022-12-11 07:45:03,955] {processor.py:163} INFO - Started process (PID=1200) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:45:03,957] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:45:03,968] {logging_mixin.py:109} INFO - [2022-12-11 07:45:03,968] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:45:06,696] {logging_mixin.py:109} INFO - [2022-12-11 07:45:06,695] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_yellowtax_dag.py", line 26, in <module>
+    dataset_url1 = f"https://d37ci6vzurychx.cloudfront.net/trip-data/{dataset_file}"
+NameError: name 'dataset_file' is not defined
+[2022-12-11 07:45:06,715] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:45:06,729] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 2.789 seconds
+[2022-12-11 07:45:37,323] {processor.py:163} INFO - Started process (PID=1224) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:45:37,326] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:45:37,326] {logging_mixin.py:109} INFO - [2022-12-11 07:45:37,326] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:45:38,346] {logging_mixin.py:109} INFO - [2022-12-11 07:45:38,345] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_yellowtax_dag.py", line 26, in <module>
+    dataset_url1 = f"https://d37ci6vzurychx.cloudfront.net/trip-data/{dataset_file}"
+NameError: name 'dataset_file' is not defined
+[2022-12-11 07:45:38,361] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:45:38,371] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 1.052 seconds
+[2022-12-11 07:46:08,542] {processor.py:163} INFO - Started process (PID=1249) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:46:08,544] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:46:08,546] {logging_mixin.py:109} INFO - [2022-12-11 07:46:08,545] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:46:10,342] {logging_mixin.py:109} INFO - [2022-12-11 07:46:10,341] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_yellowtax_dag.py", line 26, in <module>
+    dataset_url1 = f"https://d37ci6vzurychx.cloudfront.net/trip-data/{dataset_file}"
+NameError: name 'dataset_file' is not defined
+[2022-12-11 07:46:10,362] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:46:10,374] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 1.846 seconds
+[2022-12-11 07:46:40,546] {processor.py:163} INFO - Started process (PID=1274) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:46:40,552] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:46:40,561] {logging_mixin.py:109} INFO - [2022-12-11 07:46:40,554] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:46:44,787] {logging_mixin.py:109} INFO - [2022-12-11 07:46:44,785] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_yellowtax_dag.py", line 26, in <module>
+    dataset_url1 = f"https://d37ci6vzurychx.cloudfront.net/trip-data/{dataset_file}"
+NameError: name 'dataset_file' is not defined
+[2022-12-11 07:46:44,822] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:46:44,847] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 4.327 seconds
+[2022-12-11 07:47:15,774] {processor.py:163} INFO - Started process (PID=1298) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:47:15,795] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:47:15,820] {logging_mixin.py:109} INFO - [2022-12-11 07:47:15,819] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:47:33,879] {logging_mixin.py:109} INFO - [2022-12-11 07:47:33,864] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_yellowtax_dag.py", line 26, in <module>
+    dataset_url1 = f"https://d37ci6vzurychx.cloudfront.net/trip-data/{dataset_file}"
+NameError: name 'dataset_file' is not defined
+[2022-12-11 07:47:34,070] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:47:34,278] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 18.783 seconds
+[2022-12-11 07:48:05,148] {processor.py:163} INFO - Started process (PID=1322) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:48:05,154] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:48:05,157] {logging_mixin.py:109} INFO - [2022-12-11 07:48:05,157] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:48:25,517] {logging_mixin.py:109} INFO - [2022-12-11 07:48:25,473] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_yellowtax_dag.py", line 26, in <module>
+    dataset_url1 = f"https://d37ci6vzurychx.cloudfront.net/trip-data/{dataset_file}"
+NameError: name 'dataset_file' is not defined
+[2022-12-11 07:48:25,807] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:48:26,003] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 20.886 seconds
+[2022-12-11 07:48:57,563] {processor.py:163} INFO - Started process (PID=1355) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:48:57,611] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:48:57,685] {logging_mixin.py:109} INFO - [2022-12-11 07:48:57,655] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:49:27,726] {logging_mixin.py:109} INFO - [2022-12-11 07:49:27,725] {timeout.py:36} ERROR - Process timed out, PID: 1355
+[2022-12-11 07:49:28,056] {logging_mixin.py:109} INFO - [2022-12-11 07:49:27,739] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_yellowtax_dag.py", line 10, in <module>
+    from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateExternalTableOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 38, in <module>
+    from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook, BigQueryJob
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 33, in <module>
+    from google.cloud.bigquery import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/__init__.py", line 35, in <module>
+    from google.cloud.bigquery.client import Client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/client.py", line 61, in <module>
+    from google.cloud.bigquery_storage_v1.services.big_query_read.client import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/__init__.py", line 25, in <module>
+    from google.cloud.bigquery_storage_v1 import client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/client.py", line 27, in <module>
+    from google.cloud.bigquery_storage_v1.services import big_query_read
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/services/big_query_read/__init__.py", line 16, in <module>
+    from .client import BigQueryReadClient
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/services/big_query_read/client.py", line 37, in <module>
+    from google.cloud.bigquery_storage_v1.types import arrow
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 857, in get_code
+  File "<frozen importlib._bootstrap_external>", line 525, in _compile_bytecode
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/data_ingestion_yellowtax_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#reducing-dag-complexity, PID: 1355
+[2022-12-11 07:49:28,529] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:49:28,851] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 31.369 seconds
+[2022-12-11 07:50:03,052] {processor.py:163} INFO - Started process (PID=1387) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:50:03,321] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:50:03,424] {logging_mixin.py:109} INFO - [2022-12-11 07:50:03,424] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:50:33,594] {logging_mixin.py:109} INFO - [2022-12-11 07:50:33,593] {timeout.py:36} ERROR - Process timed out, PID: 1387
+[2022-12-11 07:50:34,566] {logging_mixin.py:109} INFO - [2022-12-11 07:50:33,793] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_yellowtax_dag.py", line 10, in <module>
+    from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateExternalTableOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 38, in <module>
+    from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook, BigQueryJob
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 33, in <module>
+    from google.cloud.bigquery import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/__init__.py", line 35, in <module>
+    from google.cloud.bigquery.client import Client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/client.py", line 61, in <module>
+    from google.cloud.bigquery_storage_v1.services.big_query_read.client import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/__init__.py", line 25, in <module>
+    from google.cloud.bigquery_storage_v1 import client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/client.py", line 26, in <module>
+    from google.cloud.bigquery_storage_v1 import reader
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/reader.py", line 28, in <module>
+    import pandas
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/__init__.py", line 11, in <module>
+    __import__(dependency)
+  File "/home/airflow/.local/lib/python3.7/site-packages/numpy/__init__.py", line 145, in <module>
+    from . import core
+  File "/home/airflow/.local/lib/python3.7/site-packages/numpy/core/__init__.py", line 72, in <module>
+    from . import numeric
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 857, in get_code
+  File "<frozen importlib._bootstrap_external>", line 525, in _compile_bytecode
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/data_ingestion_yellowtax_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#reducing-dag-complexity, PID: 1387
+[2022-12-11 07:50:35,590] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:50:36,548] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 34.449 seconds
+[2022-12-11 07:51:08,759] {processor.py:163} INFO - Started process (PID=1427) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:51:08,888] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:51:08,943] {logging_mixin.py:109} INFO - [2022-12-11 07:51:08,943] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:51:39,125] {logging_mixin.py:109} INFO - [2022-12-11 07:51:39,052] {timeout.py:36} ERROR - Process timed out, PID: 1427
+[2022-12-11 07:51:39,595] {logging_mixin.py:109} INFO - [2022-12-11 07:51:39,185] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_yellowtax_dag.py", line 10, in <module>
+    from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateExternalTableOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 38, in <module>
+    from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook, BigQueryJob
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 33, in <module>
+    from google.cloud.bigquery import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/__init__.py", line 35, in <module>
+    from google.cloud.bigquery.client import Client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/client.py", line 61, in <module>
+    from google.cloud.bigquery_storage_v1.services.big_query_read.client import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/__init__.py", line 25, in <module>
+    from google.cloud.bigquery_storage_v1 import client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/client.py", line 26, in <module>
+    from google.cloud.bigquery_storage_v1 import reader
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/reader.py", line 28, in <module>
+    import pandas
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/compat/__init__.py", line 15, in <module>
+    from pandas.compat.numpy import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py", line 7, in <module>
+    from pandas.util.version import Version
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/util/__init__.py", line 1, in <module>
+    from pandas.util._decorators import (  # noqa
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly  # noqa
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+  File "pandas/_libs/hashtable.pyx", line 1, in init pandas._libs.hashtable
+  File "pandas/_libs/missing.pyx", line 30, in init pandas._libs.missing
+  File "<frozen importlib._bootstrap>", line 416, in parent
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/data_ingestion_yellowtax_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#reducing-dag-complexity, PID: 1427
+[2022-12-11 07:51:40,934] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:51:41,500] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 32.995 seconds
+[2022-12-11 07:52:14,087] {processor.py:163} INFO - Started process (PID=1459) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:52:14,136] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:52:14,180] {logging_mixin.py:109} INFO - [2022-12-11 07:52:14,180] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:52:44,647] {logging_mixin.py:109} INFO - [2022-12-11 07:52:44,618] {timeout.py:36} ERROR - Process timed out, PID: 1459
+[2022-12-11 07:52:45,226] {logging_mixin.py:109} INFO - [2022-12-11 07:52:44,698] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_yellowtax_dag.py", line 10, in <module>
+    from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateExternalTableOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 38, in <module>
+    from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook, BigQueryJob
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 33, in <module>
+    from google.cloud.bigquery import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/__init__.py", line 35, in <module>
+    from google.cloud.bigquery.client import Client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/client.py", line 61, in <module>
+    from google.cloud.bigquery_storage_v1.services.big_query_read.client import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/__init__.py", line 25, in <module>
+    from google.cloud.bigquery_storage_v1 import client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/client.py", line 26, in <module>
+    from google.cloud.bigquery_storage_v1 import reader
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/reader.py", line 28, in <module>
+    import pandas
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/compat/__init__.py", line 23, in <module>
+    from pandas.compat.pyarrow import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/compat/pyarrow.py", line 6, in <module>
+    import pyarrow as pa
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyarrow/__init__.py", line 63, in <module>
+    import pyarrow.lib as _lib
+  File "<frozen importlib._bootstrap>", line 416, in parent
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/data_ingestion_yellowtax_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#reducing-dag-complexity, PID: 1459
+[2022-12-11 07:52:46,116] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:52:46,838] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 33.117 seconds
+[2022-12-11 07:53:19,122] {processor.py:163} INFO - Started process (PID=1493) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:53:19,206] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:53:19,234] {logging_mixin.py:109} INFO - [2022-12-11 07:53:19,234] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:53:49,335] {logging_mixin.py:109} INFO - [2022-12-11 07:53:49,334] {timeout.py:36} ERROR - Process timed out, PID: 1493
+[2022-12-11 07:53:49,967] {logging_mixin.py:109} INFO - [2022-12-11 07:53:49,371] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_yellowtax_dag.py", line 10, in <module>
+    from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateExternalTableOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 38, in <module>
+    from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook, BigQueryJob
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 33, in <module>
+    from google.cloud.bigquery import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/__init__.py", line 35, in <module>
+    from google.cloud.bigquery.client import Client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/client.py", line 61, in <module>
+    from google.cloud.bigquery_storage_v1.services.big_query_read.client import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/__init__.py", line 25, in <module>
+    from google.cloud.bigquery_storage_v1 import client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/client.py", line 26, in <module>
+    from google.cloud.bigquery_storage_v1 import reader
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/reader.py", line 28, in <module>
+    import pandas
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/__init__.py", line 50, in <module>
+    from pandas.core.api import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/api.py", line 29, in <module>
+    from pandas.core.arrays import Categorical
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/arrays/__init__.py", line 1, in <module>
+    from pandas.core.arrays.base import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/arrays/base.py", line 69, in <module>
+    from pandas.core.sorting import (
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 857, in get_code
+  File "<frozen importlib._bootstrap_external>", line 525, in _compile_bytecode
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/data_ingestion_yellowtax_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#reducing-dag-complexity, PID: 1493
+[2022-12-11 07:53:50,487] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:53:51,114] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 32.154 seconds
+[2022-12-11 07:54:23,198] {processor.py:163} INFO - Started process (PID=1526) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:54:23,262] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:54:23,282] {logging_mixin.py:109} INFO - [2022-12-11 07:54:23,282] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:54:53,490] {logging_mixin.py:109} INFO - [2022-12-11 07:54:53,449] {timeout.py:36} ERROR - Process timed out, PID: 1526
+[2022-12-11 07:54:53,998] {logging_mixin.py:109} INFO - [2022-12-11 07:54:53,521] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_yellowtax_dag.py", line 10, in <module>
+    from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateExternalTableOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 38, in <module>
+    from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook, BigQueryJob
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 33, in <module>
+    from google.cloud.bigquery import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/__init__.py", line 35, in <module>
+    from google.cloud.bigquery.client import Client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/client.py", line 61, in <module>
+    from google.cloud.bigquery_storage_v1.services.big_query_read.client import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/__init__.py", line 25, in <module>
+    from google.cloud.bigquery_storage_v1 import client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/client.py", line 26, in <module>
+    from google.cloud.bigquery_storage_v1 import reader
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/reader.py", line 28, in <module>
+    import pandas
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/__init__.py", line 50, in <module>
+    from pandas.core.api import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/api.py", line 29, in <module>
+    from pandas.core.arrays import Categorical
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/arrays/__init__.py", line 11, in <module>
+    from pandas.core.arrays.interval import IntervalArray
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/arrays/interval.py", line 190, in <module>
+    class IntervalArray(IntervalMixin, ExtensionArray):
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/arrays/interval.py", line 1242, in IntervalArray
+    """
+  File "/usr/local/lib/python3.7/textwrap.py", line 431, in dedent
+    indents = _leading_whitespace_re.findall(text)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/data_ingestion_yellowtax_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#reducing-dag-complexity, PID: 1526
+[2022-12-11 07:54:54,538] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:54:54,979] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 32.016 seconds
+[2022-12-11 07:55:27,021] {processor.py:163} INFO - Started process (PID=1559) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:55:27,036] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:55:27,128] {logging_mixin.py:109} INFO - [2022-12-11 07:55:27,127] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:55:57,338] {logging_mixin.py:109} INFO - [2022-12-11 07:55:57,337] {timeout.py:36} ERROR - Process timed out, PID: 1559
+[2022-12-11 07:55:57,721] {logging_mixin.py:109} INFO - [2022-12-11 07:55:57,339] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_yellowtax_dag.py", line 10, in <module>
+    from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateExternalTableOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 38, in <module>
+    from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook, BigQueryJob
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 33, in <module>
+    from google.cloud.bigquery import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/__init__.py", line 35, in <module>
+    from google.cloud.bigquery.client import Client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/client.py", line 61, in <module>
+    from google.cloud.bigquery_storage_v1.services.big_query_read.client import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/__init__.py", line 25, in <module>
+    from google.cloud.bigquery_storage_v1 import client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/client.py", line 26, in <module>
+    from google.cloud.bigquery_storage_v1 import reader
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/reader.py", line 28, in <module>
+    import pandas
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/__init__.py", line 50, in <module>
+    from pandas.core.api import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/api.py", line 48, in <module>
+    from pandas.core.groupby import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/groupby/__init__.py", line 1, in <module>
+    from pandas.core.groupby.generic import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/groupby/generic.py", line 64, in <module>
+    from pandas.core.aggregation import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/aggregation.py", line 33, in <module>
+    from pandas.core.indexes.api import Index
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/indexes/api.py", line 1, in <module>
+    from __future__ import annotations
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/data_ingestion_yellowtax_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#reducing-dag-complexity, PID: 1559
+[2022-12-11 07:55:58,374] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:55:58,794] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 32.089 seconds
+[2022-12-11 07:56:34,214] {processor.py:163} INFO - Started process (PID=1600) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:56:34,292] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:56:34,362] {logging_mixin.py:109} INFO - [2022-12-11 07:56:34,361] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:57:04,529] {logging_mixin.py:109} INFO - [2022-12-11 07:57:04,487] {timeout.py:36} ERROR - Process timed out, PID: 1600
+[2022-12-11 07:57:04,530] {logging_mixin.py:109} WARNING - Exception ignored in: <function WeakValueDictionary.__init__.<locals>.remove at 0x7fc8270ea0e0>
+[2022-12-11 07:57:04,530] {logging_mixin.py:109} WARNING - Traceback (most recent call last):
+[2022-12-11 07:57:04,530] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/weakref.py", line 109, in remove
+[2022-12-11 07:57:04,541] {logging_mixin.py:109} WARNING -     def remove(wr, selfref=ref(self), _atomic_removal=_remove_dead_weakref):
+[2022-12-11 07:57:04,549] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+[2022-12-11 07:57:04,565] {logging_mixin.py:109} WARNING -     raise AirflowTaskTimeout(self.error_message)
+[2022-12-11 07:57:04,581] {logging_mixin.py:109} WARNING - airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/data_ingestion_yellowtax_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#reducing-dag-complexity, PID: 1600
+[2022-12-11 07:57:16,450] {logging_mixin.py:109} INFO - [2022-12-11 07:57:16,414] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_yellowtax_dag.py", line 26, in <module>
+    dataset_url1 = f"https://d37ci6vzurychx.cloudfront.net/trip-data/{dataset_file}"
+NameError: name 'dataset_file' is not defined
+[2022-12-11 07:57:17,418] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:57:17,846] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 43.852 seconds
+[2022-12-11 07:57:50,874] {processor.py:163} INFO - Started process (PID=1643) to work on /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:57:50,904] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_yellowtax_dag.py for tasks to queue
+[2022-12-11 07:57:50,966] {logging_mixin.py:109} INFO - [2022-12-11 07:57:50,966] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:58:26,199] {logging_mixin.py:109} INFO - [2022-12-11 07:58:26,198] {timeout.py:36} ERROR - Process timed out, PID: 1643
+[2022-12-11 07:58:26,225] {logging_mixin.py:109} WARNING - Exception ignored in: <function WeakValueDictionary.__init__.<locals>.remove at 0x7fc8270ea0e0>
+[2022-12-11 07:58:26,250] {logging_mixin.py:109} WARNING - Traceback (most recent call last):
+[2022-12-11 07:58:26,261] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/weakref.py", line 109, in remove
+[2022-12-11 07:58:26,282] {logging_mixin.py:109} WARNING -     def remove(wr, selfref=ref(self), _atomic_removal=_remove_dead_weakref):
+[2022-12-11 07:58:26,283] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+[2022-12-11 07:58:26,301] {logging_mixin.py:109} WARNING -     raise AirflowTaskTimeout(self.error_message)
+[2022-12-11 07:58:26,305] {logging_mixin.py:109} WARNING - airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/data_ingestion_yellowtax_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#reducing-dag-complexity, PID: 1643
+[2022-12-11 07:58:37,866] {logging_mixin.py:109} INFO - [2022-12-11 07:58:37,700] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_yellowtax_dag.py", line 26, in <module>
+    dataset_url1 = f"https://d37ci6vzurychx.cloudfront.net/trip-data/{dataset_file}"
+NameError: name 'dataset_file' is not defined
+[2022-12-11 07:58:38,446] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_yellowtax_dag.py
+[2022-12-11 07:58:38,996] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_yellowtax_dag.py took 48.285 seconds

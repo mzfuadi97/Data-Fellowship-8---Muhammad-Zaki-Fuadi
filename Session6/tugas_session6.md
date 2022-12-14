@@ -245,20 +245,17 @@ spark.sql("select PUlocationID, DOlocationID, count(*) as countPUDUpairs from tr
 
 
                                                                                     
-5. Write all of the result to BigQuery table (additional - point plus) ? with dags ingestion df_to_parquate >> to_local_gcs_ >> to_bigquery
-
-```python
-pwd
-```
+5. Write all of the result to BigQuery table (additional - point plus) ? with dags ingestion to_local_gcs_ >> to_bigquery
 
 
+#### Script save spark SQL in Jupyter(Python)
+![](In-Jupyter.PNG)
 
+#### Move data to Bucket OR Wtih DAG
+![](mv-tobucket.PNG)
 
-    '/home/jovyan'
+#### DAGs to BigQuery
+![](dag-toBQ.PNG)
 
-
-
-
-```python
-
-```
+#### In Snapshot Bigquery in session6 dataset
+![](Bigquery.PNG)
