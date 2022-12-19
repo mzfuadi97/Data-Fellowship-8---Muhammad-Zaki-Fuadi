@@ -1,11 +1,12 @@
+---
 version: '2'
-services:
 
+services:
   postgres:
     image: debezium/postgres:11
     environment:
       POSTGRES_PASSWORD: postgres
-    command: postgres -c config_file=/home/df8coba/session6/kafka_streams/config/postgresql.conf
+    command: postgres -cconfig_file=/home/df8coba/session6/kafka_streams/config/postgresql.conf
     ports:
       - 5432:5432
     volumes:
