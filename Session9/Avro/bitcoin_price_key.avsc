@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "namespace": "DataTraining",
+  "name": "BitcoinPriceKey",
+  "fields": [
+    {
+      "name": "Date",
+      "type": "string"
+    }
+  ]
+}

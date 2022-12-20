@@ -5,8 +5,8 @@ from time import sleep
 
 
 def load_avro_schema_from_file():
-    key_schema = avro.load("taxi_ride_key.avsc")
-    value_schema = avro.load("taxi_ride_value.avsc")
+    key_schema = avro.load("/home/df8coba/session6/Avro/Avro/bitcoin_price_key.avsc")
+    value_schema = avro.load("/home/df8coba/session6/Avro/Avro/bitcoin_price_value.avsc")
 
     return key_schema, value_schema
 
@@ -22,16 +22,17 @@ def send_record():
 
     producer = AvroProducer(producer_config, default_key_schema=key_schema, default_value_schema=value_schema)
 
-    file = open('data/rides.csv')
+    file = open('/home/df8coba/session6/Avro/data/bitcoin_price_training.csv')
 
     csvreader = csv.reader(file)
     header = next(csvreader)
     for row in csvreader:
-        key = {"vendorId": int(row[0])}
-        value = {"vendorId": int(row[0]), "passenger_count": int(row[3]), "trip_distance": float(row[4]), "payment_type": int(row[9]), "total_amount": float(row[16])}
-
+        key = {"Date": str(row[0])}
+        value = {"Date": str(row[0]), "Open": float(row[1]), "High": float(row[2]), "Low": float(row[3]), "Close": float(row[4]), "Volume":str(row[5]), "Market_Cap":str(row[6])}
+        
+        
         try:
-            producer.produce(topic='datatalkclub.yellow_taxi_rides', key=key, value=value)
+            producer.produce(topic='bitcoin.price', key=key, value=value)
         except Exception as e:
             print(f"Exception while producing record value - {value}: {e}")
         else:

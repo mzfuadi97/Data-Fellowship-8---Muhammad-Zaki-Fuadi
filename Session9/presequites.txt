@@ -1,3 +1,4 @@
-pip3 install avro-python3
-pip3 install requests
-pip3 install confluent-kafka
+avro-python3
+requests
+confluent-kafka
+google-cloud-bigquery
