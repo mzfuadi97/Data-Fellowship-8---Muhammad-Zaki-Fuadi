@@ -24,13 +24,13 @@ pip install -r presequites.txt
 6. To run the producer, type this command in the CMD:
 
 ```sh
-python3 producer.py
+python3 /Schema/producer.py
 ```
 
 7. To run the consumer, type this command in the CMD:
 
 ```sh
-python3 consumer.py
+python3 /Schema/consumer.py
 ```
 
 8. If you failed to install the dependencies in step 5, you can use Windows Subsystem for Linux (WSL) as terminal in steps 5 through 7 instead of using Command Prompt.
