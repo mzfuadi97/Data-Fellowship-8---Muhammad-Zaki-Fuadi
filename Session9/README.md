@@ -18,7 +18,7 @@ docker compose up
 5. Create a python virtual environment, activate it, and install the dependencies inside presqquites.txt, you can use this command:
 
 ```sh
-pip install -r presqquites.txt
+pip install -r presequites.txt
 ```
 
 6. To run the producer, type this command in the CMD:
